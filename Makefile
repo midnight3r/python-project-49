@@ -10,3 +10,5 @@ package-install: #install package
 	python3 -m pip install --user dist/*.whl
 package-reinstall: #reinstall
 	pip install --user --force-reinstall dist/*.whl
+lint: #lint check
+	poetry run flake8 brain_games
