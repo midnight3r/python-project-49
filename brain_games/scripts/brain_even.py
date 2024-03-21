@@ -15,19 +15,19 @@ def main():
         answer = input(f'Question: {guessed_number}\nYour answer: ')
         if answer != 'yes' and answer != 'no' and guessed_number % 2 == 0:
             print(f'{answer} is wrong answer ;(. Correct answer was \'yes\'.')
-            print(f'Let\'s try again, {name}')
+            print(f'Let\'s try again, {name}!')
             break
         elif answer != 'yes' and answer != 'no' and guessed_number % 2 != 0:
             print(f'{answer} is wrong answer ;(. Correct answer was \'no\'.')
-            print(f'Let\'s try again, {name}')
+            print(f'Let\'s try again, {name}!')
             break
         elif answer == 'yes' and guessed_number % 2 != 0:
             print(f'{answer} is wrong answer ;(. Correct answer was \'no\'.')
-            print(f'Let\'s try again, {name}')
+            print(f'Let\'s try again, {name}!')
             break
         elif answer == 'no' and guessed_number % 2 == 0:
             print(f'{answer} is wrong answer ;(. Correct answer was \'yes\'.')
-            print(f'Let\'s try again, {name}')
+            print(f'Let\'s try again, {name}!')
             break
         elif answer == 'yes' and guessed_number % 2 == 0:
             print('Correct!')
