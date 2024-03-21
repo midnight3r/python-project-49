@@ -6,7 +6,7 @@ import prompt
 
 def main():
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have Your name? ')
+    name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print('What number is missing in the progression?')
     list_of_num = list(range(1, 101))
