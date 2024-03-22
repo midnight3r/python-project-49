@@ -18,8 +18,8 @@ def main():
         random_num = randint(0, 9)
         guess = final_list.pop(random_num)
         final_list.insert(random_num, '..')
-        answer = print('Question:',*final_list)
-        answer = input(f'Your answer: ')
+        print('Question:', *final_list)
+        answer = input('Your answer: ')
         if str(answer) == str(guess):
             print('Correct!')
             tries += 1
